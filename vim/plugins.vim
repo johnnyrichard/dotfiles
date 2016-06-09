@@ -1,13 +1,13 @@
 "
 " Author: Johnny Richard
 " 
-" This files contains all vim plugins
+" This file contains all vim plugins
 " 
 
 " colorscheme
 Plugin 'morhetz/gruvbox'
 
-" javascript string templates
+" javascript templates
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'joukevandermaas/vim-ember-hbs'
 
