@@ -13,7 +13,7 @@ current_directory=$PWD
 if ask "Install symlink for .vimrc?" Y; then
   ln -s $current_directory/.vim ~/.vim
   ln -s $current_directory/.vimrc ~/.vimrc
-  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  vim +PluginInstall +qall
 fi
 
 if ask "Install symlink for .tmux.conf?" Y; then
