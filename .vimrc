@@ -76,4 +76,4 @@ let g:bufferline_echo = 0
 "
 set background=dark
 set t_Co=256
-colorscheme gruvbox
+silent! colorscheme gruvbox
