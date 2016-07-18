@@ -1,16 +1,10 @@
 ! fonts xft
+
+!URxvt*font: xft:DejaVu\ Sans\ Mono\ for\ Powerline:size=11
+!URxvt*boldFont: xft:DejaVu\ Sans\ Mono\ for\ Powerline:size=11
+
 URxvt*font: xft:Fantasque Sans Mono:style=Regular:size=11
 URxvt*boldFont: xft:Fantasque Sans Mono:style=Bold:size=11
-
-!URxvt*font: xft:DejaVu Sans Mono for Powerline:size=11
-!URxvt*boldFont: xft:DejaVu Sans Mono for Powerline:bold:size=11
-
-! scrollbar
-URxvt*scrollBar:          true     
-URxvt*thickness:          5
-URxvt*scrollColor:        #1E1E1E
-URxvt*scrollBar_right:    true
-URxvt*scrollstyle:        plain
 
 /* Couleurs Tango */
 URxvt.foreground: #C8C8C8
@@ -32,9 +26,9 @@ URxvt.color13:    #AD7FA8
 URxvt.color14:    #34E2E2
 URxvt.color15:    #EEEEEC
 
-URxvt.transparent: true
-URxvt.shading:     10
-URxvt.fading:      40
+!URxvt.transparent: true
+!URxvt.shading:     10
+!URxvt.fading:      40
 
 URxvt.scrollBar:         false
 URxvt.scrollTtyOutput:   false
