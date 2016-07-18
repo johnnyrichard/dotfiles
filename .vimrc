@@ -44,6 +44,13 @@ set hlsearch
 let g:netrw_liststyle=3
 
 "
+" Snippets configuration
+"
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+
+"
 " ctrlp ignore list
 "
 let g:ctrlp_custom_ignore =  {
