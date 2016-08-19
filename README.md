@@ -1,7 +1,7 @@
 .files 
 =========
 
-My .files :ballooon:
+My .files :balloon:
 
 Install
 -------
