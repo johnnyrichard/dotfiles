@@ -69,6 +69,11 @@ let g:user_emmet_install_global = 0
 autocmd FileType html,css,hbs EmmetInstall
 
 "
+" Rainbow parentheses
+"
+let g:rainbow_active = 1
+
+"
 " status line configuration
 "
 set encoding=utf-8
